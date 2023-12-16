@@ -9,6 +9,8 @@
 
 https://paijp.github.io/diagram-in-code/syntaxdiagram.html
 
+- And you can generate this diagram: https://paijp.github.io/smallest-touchpanel-ui/pic32mx/port_circuit.html from this code: https://github.com/paijp/smallest-touchpanel-ui/blob/main/pic32mx/lcdtp.c .
+
 - If you put this code into stdin, 
 
 ```
