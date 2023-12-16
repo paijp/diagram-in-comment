@@ -14,16 +14,16 @@ https://paijp.github.io/diagram-in-code/syntaxdiagram.html
 - If you put this code into stdin, 
 
 ```
-/*type-a
+/*sample/type-a
 100
 110
 */
 
-/*type-b
+/*sample/type-b
 200
 */
 
-/*type-a
+/*sample/type-a
 300
 */
 ```
