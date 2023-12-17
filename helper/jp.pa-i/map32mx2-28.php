@@ -1,8 +1,6 @@
 <?php
 
 list($body) = explode("*/", stream_get_contents(STDIN), 2);
-#print nl2br(htmlspecialchars($body));
-#die();
 
 # T: 5V
 # 20: max20mA 15:max15mA other:max10mA
@@ -77,7 +75,7 @@ foreach (preg_split("/\r\n|\r|\n/", $body) as $line) {
 		continue;
 	if (preg_match('/^#/', $line))
 		continue;
-	$a = split("[ \t]+", $line);
+	$a = preg_split("/[ \t]+/", $line);
 	$localname = $a[0];
 	for ($i=1; $i<count($a); $i++) {
 		if (preg_match('/[0-9]$/', $s = $a[$i]))
@@ -100,7 +98,7 @@ foreach ($pinarray as $key => $val) {
 			$ret .= sprintf(' <B style="background:#ff0000;">%s</B>', $name);
 			continue;
 		}
-		if ($name + 0 > 0) {
+		if ((int)$name > 0) {
 			$ret .= sprintf(' <B style="color:#ff0000;">%s</B>', $name);
 			continue;
 		}
