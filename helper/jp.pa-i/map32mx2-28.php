@@ -1,5 +1,44 @@
 <?php
 
+/*syntaxdiagram
+{[pin name on the project
+{( 
+[port name
+r}
+|{(#
+|(/
+}[comment
+}
+*/
+
+/*html
+<pre>
+<h1>sample</h1>
+/*jp.pa-i/map32mx2-28
+LED1	RPB6
+P2W	RPB3	UTX1
+W2P	RPB2	URX1
+#<h1>&darr;</h1>
+*/
+
+/*html
+<h1>This shows....</h1>
+- LED1 is on pin 9(5V tolerant).
+
+- P2W is on pin 7.
+- RPB3R = 1; will be needed.
+
+- W2P is on pin 6.
+- U1RXR = 4; will be needed.
+
+<h1>important</h1>
+- Please use U1RXR instead of URX1R in your code.
+- SS1 will be both input and output port.
+
+</pre>
+<hr />
+*/
+
 list($body) = explode("*/", stream_get_contents(STDIN), 2);
 
 # T: 5V
