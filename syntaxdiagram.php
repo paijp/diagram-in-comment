@@ -102,6 +102,14 @@ r(&
 */
 
 
+if (!function_exists("mb_strwidth")) {
+	function	mb_strwidth($s)
+	{
+		return strlen($s);
+	}
+}
+
+
 list($body) = explode("*/", stream_get_contents(STDIN), 2);
 
 
