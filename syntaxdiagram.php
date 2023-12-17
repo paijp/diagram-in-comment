@@ -119,7 +119,7 @@ class	systeminfo {
 class	holder {
 	var	$itemlist;
 	function	__construct() {
-		$itemlist = array();
+		$this->itemlist = array();
 	}
 	function	p($mul = 1, $div = 1) {
 		global	$systeminfo;
@@ -221,7 +221,7 @@ class	functionholder extends holder {
 		}
 		return 3;
 	}
-	function	additem(&$item) {
+	function	additem($item) {
 		$this->itemlist[$this->selecter][] = $item;
 	}
 }
