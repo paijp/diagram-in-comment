@@ -232,7 +232,7 @@ foreach (preg_split("/\r\n|\r|\n/", stream_get_contents(STDIN)) as $line) {
 			foreach ($list as $obj)
 				$obj->draw($g0, 16 - $l, 16 - $t);
 #		header("Content-Type: image/png");
-		imagepng($g0, $tmpfn = "tmp/".getmypid());
+		imagepng($g0, $tmpfn = dirname(@$argv[0])."/tmp/".getmypid());
 		imagedestroy($g0);
 		print '<img src="data:image/png;base64,'.base64_encode(file_get_contents($tmpfn)).'">'."\n";
 		unlink($tmpfn);
