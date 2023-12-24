@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Changed
 - Add a link to github in syntaxdiagram.html.
+- Add a PNG image to README.
 
 ## [0.0.4] - 2023-12-24
 ### Changed
