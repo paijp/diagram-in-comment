@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.4] - 2023-12-24
+### Changed
+- Minor fix(README and HTML).
+
 ## [0.0.3] - 2023-12-24
 ### Changed
 - Rename: diagram-in-code -> diagram-in-comment.
