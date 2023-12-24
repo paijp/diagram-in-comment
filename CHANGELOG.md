@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Rename: diagram-in-code -> diagram-in-comment.
 - Rename: diacode.php -> diacom.php
-- Move: helper/jp.pa-i/* -> paijp/diagram-in-comment-helper-jp.pa-i.cir/
+- Move: helper/jp.pa-i/* -> paijp/diagram-in-comment-helper-jp.pa-i.cir repository.
 - Move: html.php, syntaxdiagram.php -> helper/jp.pa-i/
 - (You must use '/*jp.pa-i/html' instead of '/*html', '/*jp.pa-i/syntaxdiagram' instead of '/*syntaxdiagram'.)
 
