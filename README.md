@@ -9,7 +9,7 @@
 
 https://paijp.github.io/diagram-in-comment/helper/jp.pa-i/syntaxdiagram.html
 
-https://paijp.github.io/diagram-in-comment/helper/jp.pa-i/syntaxdiagram.png
+![syntaxdiagram image](helper/jp.pa-i/syntaxdiagram.png)
 
 
 - And you can generate these diagram:
