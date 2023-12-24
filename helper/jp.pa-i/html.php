@@ -2,7 +2,7 @@
 
 /*
 
-	diagram-in-code https://github.com/paijp/diagram-in-code
+	diagram-in-comment https://github.com/paijp/diagram-in-comment
 	
 	Copyright (c) 2023 paijp
 

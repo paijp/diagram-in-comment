@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.3] - 2023-12-24
+### Changed
+- Rename: diagram-in-code -> diagram-in-comment.
+- Rename: diacode.php -> diacom.php
+- Move: helper/jp.pa-i/* -> paijp/diagram-in-comment-helper-jp.pa-i.cir/
+- Move: html.php, syntaxdiagram.php -> helper/jp.pa-i/
+- (You must use '/*jp.pa-i/html' instead of '/*html', '/*jp.pa-i/syntaxdiagram' instead of '/*syntaxdiagram'.)
+
 ## [0.0.2] - 2023-12-17
 ### Added
 - Sample for helper/jp.pa-i/map32mx2-28.php(map32mx2-28.html).

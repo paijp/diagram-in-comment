@@ -2,7 +2,7 @@
 
 /*
 
-	diagram-in-code https://github.com/paijp/diagram-in-code
+	diagram-in-comment https://github.com/paijp/diagram-in-comment
 	
 	Copyright (c) 2023 paijp
 
@@ -24,10 +24,7 @@ if (@$dir_helper === null)
 $content = stream_get_contents(STDIN);
 $sha1 = sha1($content);
 
-$helperlist = array(
-	"html" => "php {$basedir}/html.php", 
-	"syntaxdiagram" => "php {$basedir}/syntaxdiagram.php"
-);
+$helperlist = array();
 
 $fp0 = popen("cd ".escapeshellarg($dir_helper)."; ls -1 */*", "r") or die("popen failed.");
 while (($line = fgets($fp0)) !== FALSE) {

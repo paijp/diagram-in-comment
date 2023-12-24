@@ -2,7 +2,7 @@
 
 /*
 
-	diagram-in-code https://github.com/paijp/diagram-in-code
+	diagram-in-comment https://github.com/paijp/diagram-in-comment
 	
 	Copyright (c) 2023 paijp
 
@@ -14,7 +14,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 */
 
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 {{|({
 |(}
 |(|
@@ -31,10 +31,10 @@ r}{|((
 }
 */
 
-/*html
+/*jp.pa-i/html
 <pre>
 <h1>simple</h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 [variable name
 (=
 [expression
@@ -42,9 +42,9 @@ r}{|((
 
 */
 
-/*html
+/*jp.pa-i/html
 <h1>selectable / optional</h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 {(http
 |(https
 }(://
@@ -55,18 +55,18 @@ r}{|((
 
 */
 
-/*html
+/*jp.pa-i/html
 <h1>repeat</h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 {[body
 r[repeat
 }
 
 */
 
-/*html
+/*jp.pa-i/html
 <h1></h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 {[body
 r[repeat
 [more
@@ -74,17 +74,17 @@ r[repeat
 
 */
 
-/*html
+/*jp.pa-i/html
 <h1></h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 {[body
 r}
 
 */
 
-/*html
+/*jp.pa-i/html
 <h1></h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 {|(?
 {[key
 (=
@@ -94,24 +94,24 @@ r(&
 
 */
 
-/*html
+/*jp.pa-i/html
 <h1>highlight</h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 (abc
 ?(def
 (ghi
 
 */
 
-/*html
+/*jp.pa-i/html
 <h1>size</h1>
-/*syntaxdiagram
+/*jp.pa-i/syntaxdiagram
 #fontsize=30
 (abc
 
 */
 
-/*html
+/*jp.pa-i/html
 </pre>
 */
 
