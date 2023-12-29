@@ -1,15 +1,38 @@
 # diagram-in-comment
 
 - You can draw a diagram using the comment block in your code.
-- This command generates this diadram.
+- This comment in your source ....
+
+````
+/*jp.pa-i/syntaxdiagram
+{{|({
+|(}
+|(|
+|(r
+|(?
+r}{|((
+[literal
+|([
+[name
+}|(#
+[config key
+(=
+[number
+}
+*/
+````
+
+- .... will be ....
+
+![syntaxdiagram image](helper/jp.pa-i/syntaxdiagram.png)
+
+- ....by this command.
 
 ```
  $ php diacom.php <helper/jp.pa-i/syntaxdiagram.php >syntaxdiagram.html
 ```
 
 https://paijp.github.io/diagram-in-comment/helper/jp.pa-i/syntaxdiagram.html
-
-![syntaxdiagram image](helper/jp.pa-i/syntaxdiagram.png)
 
 
 - And you can generate these diagram:
