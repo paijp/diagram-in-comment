@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License along with thi
 /*jp.pa-i/html
 <p><a href="https://github.com/paijp/diagram-in-comment">How to generate this?</a></p>
 */
-/* output: https://paijp.github.io/diagram-in-comment/helper/jp.pa-i/syntaxdiagram.html */
+/* generated HTML: https://paijp.github.io/diagram-in-comment/helper/jp.pa-i/syntaxdiagram.html */
 
 /*jp.pa-i/syntaxdiagram
 {{|({
@@ -44,7 +44,7 @@ r}{|((
 (=
 [expression
 (;
-
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html
@@ -57,7 +57,18 @@ r}{|((
 {|(:
 [port
 }
+#<h1>&darr;</h1>
+*/
 
+/*jp.pa-i/html
+<h1>nesting</h1>
+/*jp.pa-i/syntaxdiagram
+{|[user
+{|(:
+[pass
+}(@
+}
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html
@@ -66,7 +77,7 @@ r}{|((
 {[body
 r[repeat
 }
-
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html
@@ -76,7 +87,7 @@ r[repeat
 r[repeat
 [more
 }
-
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html
@@ -84,7 +95,7 @@ r[repeat
 /*jp.pa-i/syntaxdiagram
 {[body
 r}
-
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html
@@ -96,7 +107,7 @@ r}
 [value
 r(&
 }}
-
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html
@@ -105,7 +116,7 @@ r(&
 (abc
 ?(def
 (ghi
-
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html
@@ -113,7 +124,7 @@ r(&
 /*jp.pa-i/syntaxdiagram
 #fontsize=30
 (abc
-
+#<h1>&darr;</h1>
 */
 
 /*jp.pa-i/html

@@ -1,7 +1,9 @@
 # diagram-in-comment
 
+## What is this?
+
 - You can draw a diagram using the comment block in your code.
-- This comment in your source ....
+- This comment in your source....
 
 ````
 /*jp.pa-i/syntaxdiagram
@@ -22,7 +24,7 @@ r}{|((
 */
 ````
 
-- .... will be ....
+- ....will be like this(full: https://paijp.github.io/diagram-in-comment/helper/jp.pa-i/syntaxdiagram.html )....
 
 ![syntaxdiagram image](helper/jp.pa-i/syntaxdiagram.png)
 
@@ -32,19 +34,26 @@ r}{|((
  $ php diacom.php <helper/jp.pa-i/syntaxdiagram.php >syntaxdiagram.html
 ```
 
-https://paijp.github.io/diagram-in-comment/helper/jp.pa-i/syntaxdiagram.html
+- And this comment in your source....
+```
+/*jp.pa-i.cir/cir sip3 U1
+22(4[VOUT])2{c104}2[[G]
+22(66[VIN])2{c104}2[[G]
+22222[[G]
+```
+
+- ....will be like this(full: https://paijp.github.io/diagram-in-comment-helper-jp.pa-i.cir/cir.html )....
+
+![cir image](https://paijp.github.io/diagram-in-comment-helper-jp.pa-i.cir/cir.png)
+
+- ....by installing: https://github.com/paijp/diagram-in-comment-helper-jp.pa-i.cir/
 
 
 - And you can generate these diagram:
-- https://paijp.github.io/diagram-in-comment-helper-jp.pa-i.cir/map32mx2-28.html from this code: https://github.com/paijp/diagram-in-comment-helper-jp.pa-i.cir/blob/main/map32mx2-28.php
 - https://paijp.github.io/smallest-touchpanel-ui/pic32mx/lcdtp.html from this code: https://github.com/paijp/smallest-touchpanel-ui/blob/main/pic32mx/lcdtp.c
 
 
-
-- Other helpers:
--- https://github.com/paijp/diagram-in-comment-helper-jp.pa-i.cir/
-
-
+## How does it work?
 
 - If you put this code into stdin, 
 
