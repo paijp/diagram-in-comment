@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [0.0.5] - 2024-01-02
 ### Changed
 - Add a link to github in syntaxdiagram.html.
 - Add a PNG image to README.
