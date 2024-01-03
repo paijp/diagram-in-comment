@@ -75,7 +75,7 @@ r}{|((
 - diacode.php will do this.
 
 ```
-$ php sample/type-a.php <<EOO
+$ php sample/type-a.php @SHA1SUM@ <<EOO
 /*sample/type-a
 100
 110
@@ -90,7 +90,7 @@ $ php sample/type-a.php <<EOO
 */
 EOO
 
-$ php sample/type-b.php <<EOO
+$ php sample/type-b.php @SHA1SUM@ <<EOO
 /*sample/type-b
 200
 */
@@ -100,7 +100,7 @@ $ php sample/type-b.php <<EOO
 */
 EOO
 
-$ php sample/type-a.php <<EOO
+$ php sample/type-a.php @SHA1SUM@ <<EOO
 /*sample/type-a
 300
 */
@@ -111,3 +111,6 @@ EOO
 - Because some scripts may process the next block of code, or the entire code.
 
 - diacode.php only requires stdin and stdout, so you can run these scripts under Docker.
+
+- @SHA1SUM@ is a SHA1 hexadecimal string and is passed as a command line parameter(argv).
+- Please use this if your helper script needs to know the version of the code.
